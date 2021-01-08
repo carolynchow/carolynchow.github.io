@@ -602,10 +602,10 @@ img {
   .hero-slides .single-hero-slide .hero-slides-content {
     position: relative;
     z-index: 1;
-    -webkit-transform: translateY(75%);
+    /*-webkit-transform: translateY(75%);
     transform: translateY(75%);
     -webkit-transition-duration: 800ms;
-    transition-duration: 800ms;
+    transition-duration: 800ms;*/
     bottom: 0; }
     .hero-slides .single-hero-slide .hero-slides-content .line {
       width: 100px;
