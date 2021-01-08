@@ -597,8 +597,7 @@ img {
   padding: 0 40px 100px;
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms;
-  /*overflow: visible; CHANGE MADE HERE*/
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer; }
   .hero-slides .single-hero-slide .hero-slides-content {
     position: relative;
@@ -1465,6 +1464,10 @@ padding: 100px 0px 50px;}
   .single-pie-bar {
     margin-bottom: 30px; } }
 
+.owl-carousel {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    }
 /* The end */
 
 /*# sourceMappingURL=style.css.map */
